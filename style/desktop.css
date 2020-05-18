@@ -1,12 +1,8 @@
-@media (min-width: 801px) {
-    * {
-        box-sizing: border-box;
-    }
-    
-    /* body {
-    
-    } */
-    
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 960px) {
     .container {
         width: 90%;
     }
@@ -57,6 +53,7 @@
     .boxes {
         display: flex;
     }
+}
     
     #one {
         background-color: teal;
@@ -97,5 +94,7 @@
     #ten {
         background-color: dodgerblue;
     }
-}
+    
+    
+
 
