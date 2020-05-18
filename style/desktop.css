@@ -39,6 +39,16 @@ nav .link {
 
 }
 
+.banner {
+    display:flex
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
 .top-content {
     margin-top: 1.7rem; 
 }
@@ -46,19 +56,6 @@ nav .link {
 .boxes {
     display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #one {
     background-color: teal;
