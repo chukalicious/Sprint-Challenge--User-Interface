@@ -39,6 +39,13 @@ nav .link {
 
 }
 
+.top-content {
+    margin-top: 1.7rem; 
+}
+
+.boxes {
+    display: flex;
+}
 
 
 
@@ -50,42 +57,45 @@ nav .link {
 
 
 
-.box1 {
+
+
+
+#one {
     background-color: teal;
 }
 
-.box2 {
+#two {
     background-color: gold;   
 }
 
-.box3 {
+#three {
     background-color: cadetblue; 
 }
 
-.box4 {
+#four {
     background-color: coral; 
 }
 
-.box5 {
+#five {
     background-color: crimson; 
 }
 
-.box6 {
+#six {
     background-color: forestgreen;
 }
 
-.box7 {
+#seven {
     background-color: darkorchid;
 }
 
-.box8 {
+#eight {
     background-color: hotpink;
 }
 
-.box9 {
+#nine {
     background-color: indigo;
 }
 
-.box10 {
+#ten {
     background-color: dodgerblue;
 }
