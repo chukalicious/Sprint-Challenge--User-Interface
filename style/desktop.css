@@ -1,3 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+
+} */
+
+.container {
+    width: 80%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    /* border: red 2px solid; */
+    padding: 2rem 0 ;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+
+}
+
+nav div {
+    width: 25%;
+    
+    text-align: center;
+}
+
+.logo {
+    padding: 1.5rem 0 0 0 ; 
+}
+
+nav .link {
+    /* border: blue solid 2px;  */
+    padding: 3rem 0 0 0 ; 
+
+}
 
 
 
