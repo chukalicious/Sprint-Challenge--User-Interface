@@ -51,13 +51,36 @@
     }
     
     .top-content {
-        margin-top: 1.7rem; 
-    }
-    
-    .boxes {
         display: flex;
+        flex-direction: column;
+        align-content: center;
     }
 
+    .text-container {
+        /* border: red solid 1px;  */
+        font-size: 1rem; 
+    }
+
+    .text-container h2 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .middle-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .boxes h2 {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+
+    }
 }
 
 
