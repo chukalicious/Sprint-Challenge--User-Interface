@@ -11,8 +11,8 @@
     header {
         width: 100%;
         display: flex;
-        border: red 2px solid;
-        padding: 2rem 0 ;
+        /* border: red 2px solid; */
+        padding: 1rem 0 ;
         
     }
     
@@ -26,6 +26,7 @@
     nav div {
         width: 100%;
         text-align: center;
+
         
     }
     
@@ -36,7 +37,7 @@
     nav .link {
         /* border: blue solid 2px; */ 
         padding: 3rem 0 0 0 ; 
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     .banner {
@@ -50,7 +51,20 @@
     }
     
     .top-content {
+        display: flex;
+        flex-direction: column;
         margin-top: 1.7rem; 
+
+    }
+
+    .text-container {
+        margin: 1rem auto; 
+        
+    }
+
+    .top-content .text-container {
+        width: 100%;
+        padding: 0 1.5rem;
     }
     
     .boxes {
