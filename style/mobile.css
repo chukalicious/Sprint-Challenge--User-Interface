@@ -69,18 +69,56 @@
     .middle-content {
         display: flex;
         flex-direction: column;
+        
     }
     
-    .boxes h2 {
-        justify-content: center;
+    .middle-content h2 {
         width: 100%;
+        font-size: 1.8rem;
+        margin-bottom: .5rem;
+        text-align: center;
+        
     }
 
     .boxes {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        /* border: purple 2px solid; */
+        align-content: center;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-content .text-container h2{
+        font-size: 2rem;
+    }
+
+    .bottom-content .text-container p {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        display: flex;
+        border: red 2px solid;
 
     }
+
+    footer nav {
+        border: yellow solid 2px; 
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    footer a {
+        
+        width: 100%; 
+    }
+
+
 }
 
 
