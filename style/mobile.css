@@ -12,8 +12,6 @@
         width: 100%;
         display: flex;
         /* border: red 2px solid; */
-        /* padding: 2rem 0 ; */
-        
     }
     
     nav {
@@ -21,23 +19,21 @@
         display: flex;
         flex-direction: column;
         /* border: blue solid 2px;  */
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
     
     nav div {
         width: 100%; 
         /* border: yellow solid 1px; */
-        text-align: center;
+        text-align: center; 
     }
     
+    nav div .link {
+        font-size: 2rem; 
+    }
+
     .logo {
         padding: 1rem 0 0 0 ; 
-    }
-    
-    nav .link {
-        /* border: blue solid 2px;  */
-        padding: 1rem 0 0 0 ; 
-        font-size: 1.5rem;
     }
     
     .banner {
@@ -68,16 +64,18 @@
     
     .middle-content {
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;  
     }
-    
+    .middle-content .boxes .box {
+        width: 70%;
+        height: 20vh;
+    }
+
     .middle-content h2 {
         width: 100%;
         font-size: 1.8rem;
         margin-bottom: .5rem;
         text-align: center;
-        
     }
 
     .boxes {
