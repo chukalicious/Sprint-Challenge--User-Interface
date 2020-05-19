@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 959px) and (min-width: 501px){
+@media (max-width: 800px) /* and (min-width: 501px) */{
     .container {
         width: 100%;
         
@@ -11,7 +11,7 @@
     header {
         width: 100%;
         display: flex;
-        /* border: red 2px solid; */
+        border: red 2px solid;
         padding: 2rem 0 ;
         
     }
@@ -34,7 +34,7 @@
     }
     
     nav .link {
-        border: blue solid 2px; 
+        /* border: blue solid 2px; */ 
         padding: 3rem 0 0 0 ; 
         font-size: 2rem;
     }
