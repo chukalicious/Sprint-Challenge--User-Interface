@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 500px) /* and (min-width: 320px) */{
+    .container {
+        width: 100%;
+        /* background-color: green; */
+    }
+    
+    header {
+        width: 100%;
+        display: flex;
+        /* border: red 2px solid; */
+    }
+    
+    nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: blue solid 2px;  */
+        /* margin-bottom: 2rem; */
+    }
+    
+    nav div {
+        width: 100%; 
+        /* border: yellow solid 1px; */
+        text-align: center; 
+    }
+    
+    nav div .link {
+        font-size: 2rem; 
+    }
+
+    .logo {
+        padding: 1rem 0 0 0 ; 
+    }
+    
+    .banner {
+        height: 13vh;
+        width: 100%;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .text-container {
+        /* border: red solid 1px;  */
+        font-size: 1rem; 
+    }
+
+    .text-container h2 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .middle-content {
+        display: flex;
+        flex-direction: column;  
+    }
+    .middle-content .boxes .box {
+        width: 70%;
+        height: 20vh;
+    }
+
+    .middle-content h2 {
+        width: 100%;
+        font-size: 1.8rem;
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* border: purple 2px solid; */
+        align-content: center;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-content .text-container h2{
+        font-size: 2rem;
+    }
+
+    .bottom-content .text-container p {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        display: flex;
+        /* border: red 2px solid; */
+    }
+
+    footer nav { 
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    footer nav a {
+        padding: .5rem 0; 
+    }
+
+    
+
+
+}
+
+

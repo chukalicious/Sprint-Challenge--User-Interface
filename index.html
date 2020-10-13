@@ -4,16 +4,31 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Sprint Challenge - Home</title>
+  <title>Kat's - Sprint Challenge - Home</title>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" type="text/css" href="style/index.css"> 
+  <link rel="stylesheet" type="text/css" href="style/desktop.css"> 
+  <link rel="stylesheet" type="text/css" href="style/mobile.css"> 
+  <link rel="stylesheet" type="text/css" href="style/tablet.css">
 
 </head>
 
 <body>
     <div class="container">
-   
+        <header>
+            <nav>
+                <div class="logo"><img src="assets/lambda-black.png"></div>
+                <div class="link">Home</div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link">Products</div>
+                <div class="link">Blog</div>
+                <div class="link">Contact</div>
+            </nav>
+        </header>
+        <div class="banner">
+            <img src="assets/jumbo.jpg">
+        </div>
         <section class="top-content">
             <div class="text-container">
                 <h2>The Future</h2>
@@ -30,16 +45,16 @@
             <h2>Why Did It Have To Be Boxes...</h2>
             
             <div class="boxes">
-                <div class="box">Box 1</div>
-                <div class="box">Box 2</div>
-                <div class="box">Box 3</div>
-                <div class="box">Box 4</div>
-                <div class="box">Box 5</div>
-                <div class="box">Box 6</div>
-                <div class="box">Box 7</div>
-                <div class="box">Box 8</div>
-                <div class="box">Box 9</div>
-                <div class="box">Box 10</div>
+                <div class="box" id="one">Box 1</div>
+                <div class="box" id="two">Box 2</div>
+                <div class="box" id="three">Box 3</div>
+                <div class="box" id="four">Box 4</div>
+                <div class="box" id="five">Box 5</div>
+                <div class="box" id="six">Box 6</div>
+                <div class="box" id="seven">Box 7</div>
+                <div class="box" id="eight">Box 8</div>
+                <div class="box" id="nine">Box 9</div>
+                <div class="box" id="ten">Box 10</div>
             </div>
         
         </section>
@@ -64,12 +79,14 @@
         <footer>
             <nav>
                 <a href="#">Home</a>
-                <a href="#">About</a>
+                <a href="about.html">About</a>
                 <a href="#">Products</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
             </nav>
         </footer>
-    </div><!-- container -->        
+    </div> 
+    
+    <!-- container -->        
 </body>
 </html>

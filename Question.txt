@@ -1,0 +1,22 @@
+Self-Study Questions
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML helps the browser, other developers, and eventually the user know what areas of the site contain what kind of content. For developers it helps keep things organized in a meaningful way. For users with accessibility issues can use software that, aided by well written semantic HTML, will know how to render you content to the user and a serach engine can better find your page if it knows what information contains. 
+
+What are the 4 areas of the box model?
+    -the content 
+    -the padding
+    -the border
+    -the margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+On the cross axis
+
+Explain why git is valuable to a team of developers.
+It helps keep track of all the changes in a website, or app. A lot of people will be working on the code, in different areas you a team needs to keep track of it in order to know what works, what breaks, at which point. Everyone may be working on it at the same time and it helps to know who is doing/has done what. 
+
+Define mobile-first design in your own words.
+It means to build your page for mobile devices initially. The mobile design should have all the essentials the site should have. It's a starting point and it might also be the most difficult screen to design for. After the mobile it's done, then you can add more features to the larger screen sizes. 
